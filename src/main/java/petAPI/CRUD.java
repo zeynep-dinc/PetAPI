@@ -35,7 +35,6 @@ public class CRUD extends BaseTestFunctions {
     private WebElement firstResponceCode;
 
 
-
     public void tabClick(String tabName){
         tabElement=driver.findElement(By.xpath("//div[contains(text(),'"+tabName+"')]"));
         elementToBeClickable(tabElement);
@@ -57,7 +56,7 @@ public class CRUD extends BaseTestFunctions {
     public void readToCode(String request){
         statusCode=firstResponceCode.getText();
         System.out.println(request+"= "+statusCode);
-        try(BufferedWriter bufferedWriter=new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"/ResponseCodes.txt"))){
+        try(BufferedWriter bufferedWriter=new BufferedWriter(new FileWriter(System.getProperty("user.dir")+"/ResponseCodes.txt",true))){
             bufferedWriter.write("\n"+request+": "+statusCode+"\n"+ newTextAttribute.standartDateFormat+"\n");
         } catch (IOException  e) {
             System.out.println("Unable to write file ");
