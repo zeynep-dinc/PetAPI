@@ -1,0 +1,4 @@
+
+DELETE Deletes a pet: 200
+Undocumented
+22/11/2021 04:12:46
