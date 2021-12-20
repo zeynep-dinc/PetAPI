@@ -7,9 +7,6 @@
 <li>Maven</li>
 <li>Cucumber</li>
 <li>Lombok</li>
-ssakjfhskf
-lkslfjkaslf
-asjfdlksafj
 </ul>
 
 <h3>Gereksinimler</h3>
