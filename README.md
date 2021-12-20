@@ -10,7 +10,7 @@
 </ul>
 
 <h3>Gereksinimler</h3>
-
+tesy for git
 <ul>
 <li>JDK 16</li>
 <li>Google Chrome Tarayıcısı versiyon 96</li>
