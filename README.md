@@ -9,8 +9,10 @@
 <li>Lombok</li>
 </ul>
 
+commit 1 -> reset olacak
+
 <h3>Gereksinimler</h3>
-tesy for git
+
 <ul>
 <li>JDK 16</li>
 <li>Google Chrome Tarayıcısı versiyon 96</li>
