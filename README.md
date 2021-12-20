@@ -10,6 +10,7 @@
 </ul>
 
 commit 1 -> reset olacak
+commit 2 -> revert olacak commit
 
 <h3>Gereksinimler</h3>
 
