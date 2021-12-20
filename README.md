@@ -10,10 +10,8 @@
 </ul>
 
 commit 1 -> reset olacak
-<<<<<<< HEAD
 commit 2 -> revert olacak commitq
-=======
->>>>>>> parent of 57c7f90 (commit 2 revert)
+
 
 <h3>Gereksinimler</h3>
 
